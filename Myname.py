@@ -17,3 +17,10 @@ def draw_thick_line(x1, y1, x2, y2, width, color):
     pen.pensize(width)
     pen.pencolor(color)
     pen.goto(x2, y2)
+
+# Function to draw the letter 'O'
+def draw_O():
+    draw_thick_line(0, -100, 0, 0, 10, "blue")
+    draw_thick_line(0, 0, 50, 0, 10, "blue")
+    draw_thick_line(0, -100, 50, -100, 10, "blue")
+    draw_thick_line(50, 0, 50, -100, 10, "blue")
