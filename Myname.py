@@ -36,3 +36,9 @@ def draw_K():
     draw_thick_line(200, 0, 200, -100, 10, "green")
     draw_thick_line(200, -50, 250, 0, 10, "green")
     draw_thick_line(200, -50, 250, -100, 10, "green")
+
+# Function to draw the letter 'A'
+def draw_A():
+    draw_thick_line(300, 0, 275, -100, 10, "purple")
+    draw_thick_line(300, 0, 325, -100, 10, "purple")
+    draw_thick_line(287.5, -50, 317.5, -50, 10, "purple")
