@@ -24,3 +24,9 @@ def draw_O():
     draw_thick_line(0, 0, 50, 0, 10, "blue")
     draw_thick_line(0, -100, 50, -100, 10, "blue")
     draw_thick_line(50, 0, 50, -100, 10, "blue")
+
+# Function to draw the letter 'N'
+def draw_N():
+    draw_thick_line(100, 0, 100, -100, 10, "red")
+    draw_thick_line(100, 0, 150, -100, 10, "red")
+    draw_thick_line(150, 0, 150, -100, 10, "red")
