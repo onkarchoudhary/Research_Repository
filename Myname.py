@@ -42,3 +42,10 @@ def draw_A():
     draw_thick_line(300, 0, 275, -100, 10, "purple")
     draw_thick_line(300, 0, 325, -100, 10, "purple")
     draw_thick_line(287.5, -50, 317.5, -50, 10, "purple")
+
+# Function to draw the letter 'R'
+def draw_R():
+    draw_thick_line(400, 0, 400, -100, 10, "orange")
+    draw_thick_line(400, 0, 450, 0, 10, "orange")
+    draw_thick_line(450, 0, 450, -50, 10, "orange")
+    draw_thick_line(400, -50, 450, -100, 10, "orange")
