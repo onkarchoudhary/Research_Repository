@@ -30,3 +30,9 @@ def draw_N():
     draw_thick_line(100, 0, 100, -100, 10, "red")
     draw_thick_line(100, 0, 150, -100, 10, "red")
     draw_thick_line(150, 0, 150, -100, 10, "red")
+
+# Function to draw the letter 'K'
+def draw_K():
+    draw_thick_line(200, 0, 200, -100, 10, "green")
+    draw_thick_line(200, -50, 250, 0, 10, "green")
+    draw_thick_line(200, -50, 250, -100, 10, "green")
