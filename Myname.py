@@ -49,3 +49,15 @@ def draw_R():
     draw_thick_line(400, 0, 450, 0, 10, "orange")
     draw_thick_line(450, 0, 450, -50, 10, "orange")
     draw_thick_line(400, -50, 450, -100, 10, "orange")
+
+
+
+# Call the functions to draw the letters
+draw_O()
+draw_N()
+draw_K()
+draw_A()
+draw_R()
+
+# Close the turtle graphics window on click
+window.exitonclick()
